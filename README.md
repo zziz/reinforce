@@ -1,4 +1,4 @@
 # rl
 Reinforcement Learning
 
-1. Minimal implementation of Deep Q Learning in Tensorflow (tf-dql.py)  
+* Minimal [implementation](https://github.com/zziz/rl/blob/master/tf-dql.py) for Deep Q-Learning in Tensorflow
