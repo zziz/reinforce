@@ -74,7 +74,7 @@ class DQNAgent:
             print("%d Reward: %s" % (game, total_reward))
 
 if __name__ == "__main__":
-    n_episodes = 100
+    n_episodes = 1000
     batch_size = 32
     env = gym.make('CartPole-v1')
     state_size = env.observation_space.shape[0]
@@ -100,4 +100,4 @@ if __name__ == "__main__":
                 agent.replay(batch_size)
         if e % 10 == 0:
             agent.save("./save/model.ckpt")
-agent.play(env, 100)
+    agent.play(env, 100)
